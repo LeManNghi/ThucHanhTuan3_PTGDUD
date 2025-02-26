@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-around;
+        }
+        header>div{
+            display: flex;
+        }
+        header>div>input{
+            background-color: rgb(216, 212, 212);
+            border-radius: 5px;
+            border-color: rgb(216, 212, 212);
+            height: 20px;
+            margin-left: 20px;
+        }
+        .logo_search{
+            align-items: center;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+            margin: 0px 15px;
+        }
+        .personal{
+            align-items: center;
+        }
+        .box{
+            color: rgb(233, 64, 114);
+            display: flex;
+            background-color: rgb(252, 218, 231);
+            margin-right: 20px;
+            border-radius: 5px;
+            align-items: center;
+            padding: 5px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="logo_search">
+            <img src="./img/chefify.png" alt="logo">
+            <input type="text">
+        </div>
+        <div>
+            <ul>
+                <li>What to cook</li>
+                <li>Recipes</li>
+                <li>Ingredients</li>
+                <li>Occasions</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        
+        <div class="personal">
+            <div class="box">
+                <img src="./img/check.png" alt="check">
+                Your Recipe Box
+            </div>
+            <img src="./img/avatar.png" alt="ava">
+        </div>
+    </header>
+</body>
+</html>
